@@ -1,4 +1,4 @@
-<h1> DETLAHES DA EDITORA {{$editoras->nome}} </H1>
+<h1> DETALHES DA EDITORA {{$editoras->nome}} </H1>
 
 <ul>
     <li>Nome: {{$editoras->nome}}</li>
@@ -13,3 +13,8 @@
  <button type="submit"> Deletar a editora {{$editoras->nome}}</button>
 
 </form>
+<style>
+    body {
+        background-color: blanchedalmond;
+    }
+</style>

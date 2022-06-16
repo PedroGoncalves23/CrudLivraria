@@ -1,6 +1,5 @@
-<p> <a href="{{ route('editoras.create')}}"> Inserir nova editora </a></p>
-
-<hr>
+<!-- <p> <a href="{{ route('editoras.create')}}"> Inserir nova editora </a></p> -->
+<p> EDITORAS CADASTRADAS </p>
 
 @if (session('message'))
     <div>
@@ -15,9 +14,15 @@
 <p> 
     {{$editora->nome}}
     <a href="{{route('editoras.show', $editora->id)}}"> Ver detalhes</a>
-    <a href="{{route('editoras.edit', $editora->id)}}"> []Editar]</a>
+    <a href="{{route('editoras.edit', $editora->id)}}"> [Editar]</a>
 
 </p>
+<hr>
 @endforeach
 </div>
-<hr>
+
+<style>
+    body {
+        background-color: blanchedalmond;
+    }
+</style>

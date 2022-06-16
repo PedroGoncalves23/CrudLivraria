@@ -23,3 +23,9 @@
 </div>
 <hr>
 @endforeach
+
+<style>
+    body {
+        background-color: blanchedalmond;
+    }
+</style>

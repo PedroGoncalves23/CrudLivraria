@@ -11,3 +11,9 @@
     <input type="hidden" name="_method" value="DELETE">
     <button type="submit">Deletar o autor {{$autor->autor}} </button>
 </form>
+
+<style>
+    body {
+        background-color: blanchedalmond;
+    }
+</style>

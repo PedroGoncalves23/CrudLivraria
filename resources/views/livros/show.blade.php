@@ -14,3 +14,9 @@
     <input type="hidden" name="_method" value="DELETE">
     <button type="submit">Deletar o livro {{$livro->titulo}} </button>
 </form>
+
+<style>
+    body{
+        background-color: blanchedalmond;
+    }
+    </style>

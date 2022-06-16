@@ -17,3 +17,9 @@
     <p><button type="submit"> Enviar</button>
     </form>
 </div>
+
+<style>
+    body {
+        background-color: blanchedalmond;
+    }
+</style>
